@@ -28,7 +28,8 @@ project "imgui"
 		}
 
 		defines 
-		{ 
+		{
+            "IMGUI_API=__declspec(dllexport)"
 		}
 
 	filter "configurations:Debug"
